@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{95072E1B-67C7-4E57-B5AC-D796212CB9BA}</ProjectGuid>
+    <ProjectGuid>{ACB164EC-DBBA-476B-9AFF-0A5F6AC27840}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>W102_Switch</RootNamespace>
-    <AssemblyName>W102 Switch</AssemblyName>
+    <RootNamespace>W105_For</RootNamespace>
+    <AssemblyName>W105 For</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="W102.cs" />
+    <Compile Include="W103.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
