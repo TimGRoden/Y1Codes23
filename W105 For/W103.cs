@@ -33,7 +33,7 @@ namespace W105_For
             for (int i=2; i<=1024;i*=2) Console.Write($"{i}{((i == 10) ? ".\n" : ", ")}");
             //1, 16, 256, 4096
             for (int i=1;i<=int.MaxValue&&i>0;i*=16) Console.Write($"{i}{((i == 268435456) ? ".\n" : ", ")}");
-            //With this one, be careful of "wrap around" when you multiply by 16.
+            //With this one, be careful of "wrap around" when you multiply by 16. 268435456 is the last storeable.
 
 
 
