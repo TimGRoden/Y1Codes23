@@ -55,6 +55,7 @@ namespace W101_If
             Console.WriteLine($"{userName}, {subject}, {userScore}/{totalScore}, {percentage.ToString("F0")}%, grade {grade}.");
 
 
+            Console.ReadKey();
         }
     }
 }
