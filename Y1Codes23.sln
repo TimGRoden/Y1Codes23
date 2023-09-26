@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestBed", "TestBed\TestBed.csproj", "{6FC2582E-1733-4F47-8C93-5326957638C9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Worksheets", "Worksheets", "{0687EF4E-6139-44B0-A486-E986794D21D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "W100 Variables", "W100 Variables\W100 Variables.csproj", "{84213AED-CFB4-4EE9-8957-E0FF827B192F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6FC2582E-1733-4F47-8C93-5326957638C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FC2582E-1733-4F47-8C93-5326957638C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FC2582E-1733-4F47-8C93-5326957638C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FC2582E-1733-4F47-8C93-5326957638C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84213AED-CFB4-4EE9-8957-E0FF827B192F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84213AED-CFB4-4EE9-8957-E0FF827B192F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84213AED-CFB4-4EE9-8957-E0FF827B192F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84213AED-CFB4-4EE9-8957-E0FF827B192F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{84213AED-CFB4-4EE9-8957-E0FF827B192F} = {0687EF4E-6139-44B0-A486-E986794D21D3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7F083C6D-B919-42F5-9709-C83B07DBB38B}
+	EndGlobalSection
+EndGlobal
