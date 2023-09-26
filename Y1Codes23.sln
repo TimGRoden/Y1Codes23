@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Worksheets", "Worksheets", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "W100 Variables", "W100 Variables\W100 Variables.csproj", "{84213AED-CFB4-4EE9-8957-E0FF827B192F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "W101 If", "W101 If\W101 If.csproj", "{6B63A11D-AD68-4E08-BA00-C47246F013C8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,12 +25,17 @@ Global
 		{84213AED-CFB4-4EE9-8957-E0FF827B192F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84213AED-CFB4-4EE9-8957-E0FF827B192F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{84213AED-CFB4-4EE9-8957-E0FF827B192F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B63A11D-AD68-4E08-BA00-C47246F013C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B63A11D-AD68-4E08-BA00-C47246F013C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B63A11D-AD68-4E08-BA00-C47246F013C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B63A11D-AD68-4E08-BA00-C47246F013C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{84213AED-CFB4-4EE9-8957-E0FF827B192F} = {0687EF4E-6139-44B0-A486-E986794D21D3}
+		{6B63A11D-AD68-4E08-BA00-C47246F013C8} = {0687EF4E-6139-44B0-A486-E986794D21D3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7F083C6D-B919-42F5-9709-C83B07DBB38B}
