@@ -10,7 +10,7 @@ namespace A101
     {
         static void larger(int first, int second) => Console.WriteLine(first > second ? "first" : first!=second?"second":"");
         static void selector(int userNum) => Console.WriteLine(userNum > 5000 ? "Too big" : userNum < 1000 ? "Too small" : "Correct!");
-        static double pizzaEaten(double diam, int slices, int eaten) => Math.PI * diam * diam * 0.25 * 2 * eaten / slices;
+        static double pizzaEaten(double diam, int slices, int eaten) => Math.PI * diam * diam * 0.25 * 2 * eaten / slices; 
 
         static void Main(string[] args)
         {
