@@ -41,6 +41,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "W104 - While", "W104 - Whil
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "W106 - Procedures with Parameters", "W106 - Procedures with Parameters\W106 - Procedures with Parameters.csproj", "{CDC0ACF1-A96B-4691-A3D2-AB9295E7CF1A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "W107 - Built in Functions", "W107 - Built in Functions\W107 - Built in Functions.csproj", "{634F6110-D922-464B-BC78-B0DCCDA46322}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{CDC0ACF1-A96B-4691-A3D2-AB9295E7CF1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CDC0ACF1-A96B-4691-A3D2-AB9295E7CF1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CDC0ACF1-A96B-4691-A3D2-AB9295E7CF1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{634F6110-D922-464B-BC78-B0DCCDA46322}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{634F6110-D922-464B-BC78-B0DCCDA46322}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{634F6110-D922-464B-BC78-B0DCCDA46322}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{634F6110-D922-464B-BC78-B0DCCDA46322}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -120,6 +126,7 @@ Global
 		{3BBFA464-E8B9-453E-8A94-4F5EDE33DD39} = {0687EF4E-6139-44B0-A486-E986794D21D3}
 		{02CBA5F7-FAB7-4F56-80C3-6363A16C1D75} = {3E5AD8AD-BD2C-489F-B492-5B571D7FBDDB}
 		{CDC0ACF1-A96B-4691-A3D2-AB9295E7CF1A} = {3E5AD8AD-BD2C-489F-B492-5B571D7FBDDB}
+		{634F6110-D922-464B-BC78-B0DCCDA46322} = {3E5AD8AD-BD2C-489F-B492-5B571D7FBDDB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7F083C6D-B919-42F5-9709-C83B07DBB38B}
