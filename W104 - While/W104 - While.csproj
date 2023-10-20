@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7F687E04-5CA0-44B2-B01F-4A2424ED01D2}</ProjectGuid>
+    <ProjectGuid>{02CBA5F7-FAB7-4F56-80C3-6363A16C1D75}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>A104</RootNamespace>
-    <AssemblyName>A104</AssemblyName>
+    <RootNamespace>W104___While</RootNamespace>
+    <AssemblyName>W104 - While</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="A104.cs" />
+    <Compile Include="W104.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
