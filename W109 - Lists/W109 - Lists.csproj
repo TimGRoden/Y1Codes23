@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{CDC0ACF1-A96B-4691-A3D2-AB9295E7CF1A}</ProjectGuid>
+    <ProjectGuid>{C4679D39-F6E4-4B60-990A-D1D91025E095}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>W106___Procedures_with_Parameters</RootNamespace>
-    <AssemblyName>W106 - Procedures with Parameters</AssemblyName>
+    <RootNamespace>W109___Lists</RootNamespace>
+    <AssemblyName>W109___Lists</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="W106.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

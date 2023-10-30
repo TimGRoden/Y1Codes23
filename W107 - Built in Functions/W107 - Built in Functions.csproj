@@ -7,7 +7,7 @@
     <ProjectGuid>{634F6110-D922-464B-BC78-B0DCCDA46322}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>W107___Built_in_Functions</RootNamespace>
-    <AssemblyName>W107___Built_in_Functions</AssemblyName>
+    <AssemblyName>W107 - Built in Functions</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="W107.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
