@@ -7,7 +7,7 @@
     <ProjectGuid>{6E5F9F57-4959-4413-8600-C2830D02E8CA}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>W108___Arrays</RootNamespace>
-    <AssemblyName>W108___Arrays</AssemblyName>
+    <AssemblyName>W108 - Arrays</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="W108.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

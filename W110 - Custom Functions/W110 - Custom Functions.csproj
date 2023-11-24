@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C4679D39-F6E4-4B60-990A-D1D91025E095}</ProjectGuid>
+    <ProjectGuid>{A9575D65-8420-4C5B-B2BC-45587FB176AE}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>W109___Lists</RootNamespace>
-    <AssemblyName>W109 - Lists</AssemblyName>
+    <RootNamespace>W110___Custom_Functions</RootNamespace>
+    <AssemblyName>W110 - Custom Functions</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="W109.cs" />
+    <Compile Include="W110.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

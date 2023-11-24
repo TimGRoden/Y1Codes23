@@ -1,51 +1,48 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
-using System.Resources;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace TestBed
+namespace ConsoleApp1
 {
-    internal class TestBed
+    internal class Program
     {
-        static void PrintHelloWorld()
+       
+        static int findMaxL(string[] words)
         {
-            Console.WriteLine("Hello World.");
-            Main(new string[2]);
-        }
-        static void ChangeYellow()
-        {
-            Console.ForegroundColor = ConsoleColor.Yellow;
-            Main(new string[2]);
-        }
-        static void ChangeGreen()
-        {
-            Console.ForegroundColor = ConsoleColor.Green;
-            Main(new string[2]);
+            int maxL = 0;
+            foreach (string word in words)
+            {
+                if (word.Length > maxL) maxL = word.Length;
+            }
+            return maxL;
         }
         static void Main(string[] args)
         {
-            Console.WriteLine("select an option:");
-            Console.WriteLine("1. Write Hello World");
-            Console.WriteLine("2. Change Text to yellow");
-            Console.WriteLine("3. Change Text to green");
-            Console.WriteLine("4. Exit");
-            int userchoice = int.Parse(Console.ReadLine());
-            switch (userchoice)
+            using (StreamWriter sw = new StreamWriter(new FileStream("Spells.txt", FileMode.OpenOrCreate)))
             {
-                case 1:
-                    PrintHelloWorld(); break;
-                case 2:
-                    ChangeYellow(); break;
-                case 3:
-                    ChangeGreen(); break;
-                case 4:
-                    break;
+                sw.WriteLine("Gust");
+                sw.WriteLine("Thunderwave");
+                sw.WriteLine("Prestiditigation");
+                sw.WriteLine("Virtue");
+                sw.WriteLine("Knock");
+                sw.WriteLine("Guidance");
             }
-            Console.WriteLine("All done");
-            Console.ReadKey();
 
+            string[] spells = File.ReadAllLines("Spells.txt");
+            Console.Write($"Spells");
+            int spacer = findMaxL(spells) + 3;
+            Console.CursorLeft = spacer;
+            Console.WriteLine("Length");
+            Console.WriteLine();
+            foreach (string spell in spells)
+            {
+                Console.Write(spell);
+                Console.CursorLeft = spacer;
+                Console.WriteLine(spell.Length);
+            }
+            Console.ReadKey();
         }
     }
 }
+

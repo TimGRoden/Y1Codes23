@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C4679D39-F6E4-4B60-990A-D1D91025E095}</ProjectGuid>
+    <ProjectGuid>{75F07BC0-A4DD-4AE6-99C3-FF889E241E34}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>W109___Lists</RootNamespace>
-    <AssemblyName>W109 - Lists</AssemblyName>
+    <RootNamespace>W113</RootNamespace>
+    <AssemblyName>W113</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="W109.cs" />
+    <Compile Include="W113.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
