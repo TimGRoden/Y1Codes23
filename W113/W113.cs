@@ -80,7 +80,6 @@ namespace W113
                 Console.WriteLine("Would you like to check another word? (Y/N)");
                 if (Console.ReadKey(true).KeyChar.ToString().ToLower() != "y") break;
             }
-            Console.ReadKey();
         }
         static void DoQuestion()
         {
