@@ -28,11 +28,12 @@ namespace W112___Reading_from_TextFiles
                 if (skipping)
                 {
                     if (line == "#start") skipping = false;
+                    i++;
                     continue; //While skipping, just keep skipping.
                 }
                 if (line[0] == '#')
                 {
-                    if (line=="#stop") { skipping = true; continue; }
+                    if (line=="#stop") { skipping = true; i++;  continue; }
                     Console.ForegroundColor = (ConsoleColor)Enum.Parse(typeof(ConsoleColor), line.Substring(1));
                 }
                 else Console.WriteLine(line);
